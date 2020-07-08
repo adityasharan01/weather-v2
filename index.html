@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <!-- <meta http-equiv="refresh" content="3"/> -->
+    <title>Know Weather</title>
+</head>
+<body>
+    <label for="cityname" id="la-city">WEATHER APP</label>
+    <input type="text" id="cityname" placeholder="Enter the city name">
+    <button type='button' class="submit" id="submit">Submit</button>
+    <div class="location">
+        <h1 class="location-timezone">PLACE </h1>
+        <div class="weather-icon" id="X">
+            <img id="sampleimage" src="icons/unknown.png" />
+        </div>
+    </div>
+    <div class="temperature">
+        <div class="degree-section">
+            <h2 class="temperature-degree">--</h2>
+            <span> &deg; C </span>
+        </div>
+        <br>
+        <div class="describe">Weather Condition</div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
